@@ -86,10 +86,11 @@ class App extends Component {
           <div className='col-md-4'>
             <Form.Group className="mb-3">
               <Form.Label>Breed: </Form.Label>
-              <Form.Select onChange={this.selectBreed}>
+              <Form.Select defaultValue={this.state.breed} onChange={this.selectBreed}>
                 <option value="">--Please Select Breed--</option>
                 {this.state.data.map((el) => (
-                  <option value={el.id} key={el.id} selected={(this.state.breed === el.id) ? true : false}>{el.name}</option>
+                  // <option value={el.id} key={el.id} selected={(this.state.breed === el.id) ? true : false}>{el.name}</option>
+                  <option value={el.id} key={el.id}>{el.name}</option>
                 ))}
               </Form.Select>
             </Form.Group>
