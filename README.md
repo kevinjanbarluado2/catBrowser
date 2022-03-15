@@ -5,3 +5,6 @@ Install Dependencies
 
 Run React App
 ### `npm start`
+
+Deploy App
+### `npm run build`
