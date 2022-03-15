@@ -1,4 +1,8 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+*
+ * @Author: Kevin Jan Barluado 
+ * @Date: 2022-03-16 07:27:40 
+ * @Github: https://github.com/kevinjanbarluado2 
+  # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
