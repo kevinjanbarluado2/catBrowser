@@ -37,7 +37,6 @@ class App extends Component {
             json.data.forEach(e => {
               if (!searchIds.includes(e.id)) newArr.push(e)
             })
-            console.log(newArr)
             if (newArr.length > 0) {
               let myData = fetchCats.concat(newArr)
 
