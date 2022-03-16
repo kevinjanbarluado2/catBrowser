@@ -42,15 +42,13 @@ class App extends Component {
 
               self.setState({ cats: myData, isLoading: false })
             } else {
-              self.setState({isLoading: null })
+              self.setState({ isLoading: null })
             }
           } else {
             let myData = fetchCats.concat(newData);
 
             self.setState({ cats: myData, isLoading: false })
           }
-
-
         }
         )
       })
@@ -110,7 +108,6 @@ class App extends Component {
         }
       </div>
     )
-
   }
 }
 
