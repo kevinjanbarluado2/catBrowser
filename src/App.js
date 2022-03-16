@@ -89,8 +89,7 @@ class App extends Component {
               <Form.Select defaultValue={this.state.breed} onChange={this.selectBreed}>
                 <option value="">--Please Select Breed--</option>
                 {this.state.data.map((el) => (
-                  // <option value={el.id} key={el.id} selected={(this.state.breed === el.id) ? true : false}>{el.name}</option>
-                  <option value={el.id} key={el.id}>{el.name}</option>
+                  <option value={el.id} key={el.id} selected={(this.state.breed === el.id) ? true : false}>{el.name}</option>
                 ))}
               </Form.Select>
             </Form.Group>
